@@ -1,5 +1,4 @@
 # Find the area of a rectangle
-
 length = float(input("Length: "))
 width = float(input("Width: "))
 
