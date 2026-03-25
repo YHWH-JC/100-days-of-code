@@ -4,4 +4,5 @@ width = float(input("Width: "))
 
 area = length * width
 
+
 print(f"The area is: {area}cm²")
