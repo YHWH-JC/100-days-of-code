@@ -1,3 +1,10 @@
+print("""
+Y   Y  AAAAA  H   H  W   W  EEEEE  H   H
+ Y Y   A   A  H   H  W   W  E      H   H
+  Y    AAAAA  HHHHH  W W W  EEEE   HHHHH
+  Y    A   A  H   H  WW WW  E      H   H
+  Y    A   A  H   H  W   W  EEEEE  H   H
+""")
 print("You are on a journey to find the Word of Truth")
 
 choice_one = input("pray or ignore? ")
