@@ -8,19 +8,25 @@ Y   Y  AAAAA  H   H  W   W  EEEEE  H   H
 print("You are on a journey to find the Word of Truth")
 
 choice_one = input("pray or ignore? ")
-
+while choice_one != "pray" and choice_one != "ignore":
+    print("Please enter pray or ignore")
+    choice_one = input("pray or ignore? ")
 if choice_one == "pray":
     choice_two = input("trust or doubt? ")
+    while choice_two != "trust" and choice_two != "doubt":
+        print("Please enter trust or doubt")
+        choice_two = input("trust or doubt? ")
     if choice_two == "trust":
         choice_three = input("which scroll? red, blue or gold ")
+        while choice_three != "red" and choice_three != "blue" and choice_three != "gold":
+            print("Please enter red, blue or gold.")
+            choice_three = input("which scroll? red, blue or gold ")
         if choice_three == "red":
-            print("False doctrine! Game Over.")
+                print("False doctrine! Game Over.")
         elif choice_three == "blue":
-            print( "Deception! Game Over.")
+                print( "Deception! Game Over.")
         elif choice_three == "gold":
             print( "You found the Word of Truth! You Win! 🙌")
-        else:
-            print("Game over")
     else:
         print("Fear consumed you. You turned back. Game Over.")
 else:
