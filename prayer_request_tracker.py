@@ -16,9 +16,4 @@ while True:
             prayer_request.append(request)
             print("Request added! 🙏")
         case 3:
-            print("Thank you for using our Prayer Request Tracker!")
-            break
-        case _:
-            print("Invalid input, please try again.")
-
-
+            print("Thank you for using our Prayer Request tracker")
